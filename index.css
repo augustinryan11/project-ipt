@@ -1,0 +1,36 @@
+#index body {
+    background-color: #2c3e50;
+    background-image: linear-gradient(45deg, #2c3e50, #3498db, #e74c3c);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  #index h1, p {
+    color: #fff;
+    text-align: center;
+  }
+  
+  #index div {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  #index div > * {
+    margin: 10px 0;
+  }
